@@ -1,5 +1,6 @@
 """
 Test custom Django management commands.
+Here is where test commands to be writen.
 """
 from unittest.mock import patch
 
