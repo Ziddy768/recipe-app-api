@@ -4,8 +4,6 @@ Tests for recipe APIs.
 from decimal import Decimal
 import email
 from genericpath import exists
-# import email
-# from turtle import title
 
 from django.contrib.auth import get_user_model
 from django.test import TestCase
@@ -13,7 +11,6 @@ from django.urls import reverse
 
 from rest_framework import status
 from rest_framework.test import APIClient
-# from app.recipe import serializers
 
 from core.models import Recipe
 
